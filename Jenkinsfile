@@ -11,7 +11,7 @@ pipeline {
     stage('Checkout Code') {
       steps {
         git branch: 'main',
-            url: 'https://github.com/shivnathyadav73/static-website.git'
+            url: 'https://github.com/akshatdevops246/static-milk.git'
       }
     }
 
